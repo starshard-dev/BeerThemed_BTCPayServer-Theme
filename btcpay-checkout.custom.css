@@ -293,7 +293,7 @@ label {
 }
 
 .expired .modal-content:after {
-    background: red;
+    background: none;
 }
 .expired__body {
     background: rgba(255, 255, 255, .8);

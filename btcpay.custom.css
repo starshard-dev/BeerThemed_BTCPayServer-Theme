@@ -1,0 +1,92 @@
+:root {
+    --btcpay-brand-primary: #f7931a;
+    --btcpay-brand-secondary: #ffffff;
+    --btcpay-brand-tertiary: #ffaf4f;
+    
+    --btcpay-brand-light: #ffd18c;
+    --btcpay-brand-medium: #FF9900;
+    --btcpay-brand-dark: #404040;
+    --btcpay-brand-darker: #3e3e3e;
+    --btcpay-brand-darkest: #101010;
+    
+    --btcpay-body-bg: #e5e5e5;
+    --btcpay-bg-tile: #ffffff69;
+    
+    --btcpay-color-primary-backdrop: #fdd1a4;
+    --btcpay-color-primary-accent: #ff5e00;
+    
+    --btcpay-color-neutral-100: #fff9f1;
+    --btcpay-color-neutral-200: #fcedd7;
+    --btcpay-color-neutral-300: #f3e1c6;
+    --btcpay-color-neutral-400: #d7cda7;
+    --btcpay-color-neutral-500: #a09272;
+    --btcpay-color-neutral-600: #ada380;
+    --btcpay-color-neutral-700: #8b6f30;
+    --btcpay-color-neutral-800: #342b13;
+    --btcpay-color-neutral-900: #20180d;
+}
+
+/* Body */
+body {
+    background: url(https://media1.giphy.com/media/ecNlcv4C8zQuPRrRkh/giphy.gif);
+    backdrop-filter: blur(5px);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+/* Headlines */
+h1, h2, h3, h4, h5 {
+    text-shadow: 1px 1px var(--btcpay-brand-darkest);
+}
+
+/* Card */
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: var(--btcpay-bg-tile);
+    background-clip: border-box;
+    border: 1px solid #d3e0ec;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.card::after {
+    filter: blur(4px);
+    background: url(https://imgpile.com/images/TOMu0G.png);
+}
+
+/* Card - Box */
+.card-deck .card:hover:before {
+    content: "";
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-shadow: 0 0 200px #484848;
+}
+
+/* Card - img */
+img.card-img-top {
+    transition: 333ms ease-in-out;
+    filter: grayscale(60%);
+}
+.card-deck .card:hover img.card-img-top {
+    transform: scale(1.08);
+    filter: none;
+}
+
+/* Card - img same height */
+@media (min-width: 768px) {
+    img.card-img-top {
+        object-fit: cover;
+        height: 180px;
+    }
+}
+
+/* Improvements */
+.form-control {
+    padding: 0.3rem 0.4rem;
+    background-clip: unset;
+}

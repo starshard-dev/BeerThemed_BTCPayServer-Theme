@@ -76,6 +76,9 @@ label {
 }
 .payment-tabs__tab.active {
     background: rgba(255, 255, 255, .25);
+    font-weight: 400;
+    transition: all .2s ease;
+    border-bottom: #3755b2 3px solid;
 }
 .payment-tabs__tab:hover {
     background: rgba(0, 0, 0, .1);

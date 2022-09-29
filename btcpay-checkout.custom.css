@@ -143,8 +143,7 @@ label {
     color: #101010;
 }
 #recommended-fee {
-    color: white;
-    text-shadow: 1px 1px black;
+    color: #777777;
 }
 
 .order-details > * {
@@ -203,15 +202,15 @@ label {
 
     background: linear-gradient(
         52deg,
-        #dad11b,
+        #f7931a,
         yellow,
         transparent,
         #fff0a7,
-        #dad11b,
+        #f7931a,
         transparent,
         white,
         transparent,
-        #dad11b
+        #f7931a
         );
     filter: blur(15px);
 

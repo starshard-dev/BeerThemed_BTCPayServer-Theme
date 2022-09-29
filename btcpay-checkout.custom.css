@@ -24,10 +24,19 @@ label {
 
 .header__icon__img {
     display: block;
-    width:360px;  /* HEADER DIMENSIONS */
-    height:60px;  /* HEADER DIMENSIONS */
-    margin-left:-10px;  /* HEADER POSITION CORRECTION */
-    margin-top:-10px;   /* HEADER POSITION CORRECTION */
+    height: 58px;
+    margin: 0 auto;
+    left: 100%;
+    margin-top: -9px;
+}
+
+.top-header .header__icon {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
 }
 
 .top-header {
@@ -160,7 +169,7 @@ label {
     z-index: 100;
     top: -40px;
     right: -50px;
-    color: red;
+    color: rgb(63, 63, 63);
     font-size: 2em;
 }
 
@@ -194,15 +203,15 @@ label {
 
     background: linear-gradient(
         52deg,
-        #f7931a,
+        #dad11b,
         yellow,
         transparent,
         #fff0a7,
-        #f7931a,
+        #dad11b,
         transparent,
         white,
         transparent,
-        #f7931a
+        #dad11b
         );
     filter: blur(15px);
 
@@ -239,7 +248,7 @@ label {
     color: white;
 }
 .powered__by__btcpayserver a {
-    color: #a9a9a9 !important;
+    color: #ff5722 !important;
 }
 
 /* PAID */

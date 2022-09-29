@@ -1,5 +1,6 @@
 body {
     background: url(https://media1.giphy.com/media/ecNlcv4C8zQuPRrRkh/giphy.gif);
+    backdrop-filter: blur(4px);
     background-blend-mode: darken;
     background-size: cover;
     background-color: #dadada;

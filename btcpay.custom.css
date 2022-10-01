@@ -4,8 +4,14 @@
 }
 /*Pseudo scrollbar elements*/
 * {
+    --btcpay-scrollbar-width: .69rem;
     --btcpay-scrollbar-color: #dae7f2a1;
     --btcpay-scrollbar-bg: #dae7f257;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: var(--btcpay-scrollbar-color);
+    border-radius: 1rem;
+    border: 3px solid #8897fa;
 }
 /*Media queries*/
 @media (max-width: 768px) {

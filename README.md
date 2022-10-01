@@ -16,7 +16,7 @@ into a githack-code URL (https://rawcdn.githack.com/TheFungibleOne/BeerThemed_BT
 that you have to copy and paste into the "Link to a custom CSS stylesheet" field in Settings > Checkout appearance.
 
 ###### POS(Point of Sale) App:
-The best you can do is to directly [copy the whole CSS code block](https://raw.githubusercontent.com/TheFungibleOne/BeerThemed_BTCPayServer-Theme/main/btcpay.custom.css) and then put it into the "Custom CSS code" field. **I don't recommend using the raw.githack URL** because it ignores some variables(https://rawcdn.githack.com/TheFungibleOne/BeerThemed_BTCPayServer-Theme/069faf8d0961b893157ecd6d29c3e0bfc02ac5d7/btcpay.custom.css)
+The best you can do is to directly [copy this whole CSS code block](https://raw.githubusercontent.com/TheFungibleOne/BeerThemed_BTCPayServer-Theme/main/btcpay.custom.css) and then put it into the "Custom CSS code" field. **And finally it will be necessary to use the raw.githack URL** because the built-in CSS editor of BTCPayServer is pretty buggy and don't recognize some variables: (https://rawcdn.githack.com/TheFungibleOne/BeerThemed_BTCPayServer-Theme/5a0f5ff405a796d801760629fa5a6cf5eb5c3069/btcpay.custom.css)
 
 
 **Note:** **_The themes for both the Checkout and the POS pages are different._**

@@ -26,7 +26,8 @@
 }
 @media only screen and (max-width: 575px) {
     #sidebar.active {
-         width:99vw;    
+         width:99vw; 
+         margin-right: -6px;
     }
 }
 

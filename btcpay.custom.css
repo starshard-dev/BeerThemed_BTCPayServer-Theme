@@ -24,10 +24,13 @@
     }
 }
 
-/* Body */
+ /* Body */
 body {
+    background: rgb(158,208,249);
+    background: radial-gradient(circle, rgba(158,208,249,1) 0%, rgba(71,75,254,1) 100%); 
     backdrop-filter: blur(1px);
     background-blend-mode: darken;
+    background-size: cover;
     background-color: rgba(226, 225, 225, 0.01);
 }
 

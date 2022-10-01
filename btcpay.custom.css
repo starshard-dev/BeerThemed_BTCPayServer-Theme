@@ -8,7 +8,7 @@
     --btcpay-scrollbar-bg: #dae7f257;
 }
 /*Media queries*/
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     #sidebar.active {
         margin-right: 0;
         width:45vw;

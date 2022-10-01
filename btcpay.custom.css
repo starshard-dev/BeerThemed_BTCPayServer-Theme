@@ -1,3 +1,29 @@
+/*Bottom scrollbar removed*/
+.h-100 {
+    overflow-x: hidden;
+}
+/*Pseudo scrollbar elements*/
+* {
+    --btcpay-scrollbar-color: #dae7f2a1;
+    --btcpay-scrollbar-bg: #dae7f257;
+}
+/*Media queries*/
+@media only screen and (max-width: 768px) {
+    #sidebar.active {
+        margin-right: 0;
+        width:45vw;
+        backdrop-filter: blur(50px);
+    }
+    #content.active {
+        width: calc(100% - 45vw);
+    }
+}
+@media only screen and (max-width: 575px) {
+    #sidebar.active {
+         width:99vw;    
+    }
+}
+
 /* Body */
 body {
     background: url(https://imgpile.com/images/TOM0IG.jpg);

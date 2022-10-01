@@ -26,10 +26,8 @@
 
 /* Body */
 body {
-    background: url(https://imgpile.com/images/TOM0IG.jpg);
     backdrop-filter: blur(1px);
     background-blend-mode: darken;
-    background-size: cover;
     background-color: rgba(226, 225, 225, 0.01);
 }
 

@@ -24,11 +24,16 @@
         width: calc(100% - 45vw);
     }
 }
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 700px) {
     #sidebar.active {
-         width:99vw; 
-         border-left: 8px solid #1f4975;
+         width:100vw; 
     }
+}
+
+@media (max-width: 575px)
+#sidebar {
+    width: 100%;
+    margin-right: -876px;
 }
 
  /* Body */
@@ -92,13 +97,17 @@ img.card-img-top {
 
 /* Improvements */
 .form-control {
-    padding: 0.3rem 0.4rem;
+    padding: 0.3rem 1rem;
     background-clip: unset;
 }
 
 .btn-outline-primary {
     color: #e1eaf1;
     border-color: #eeeeee;
+}
+
+.card-body {
+    color: black;
 }
 
 .btn-outline-primary:hover{color:rgb(214, 214, 214);background-color:rgba(31, 73, 117, 0.4); border-color:rgb(214, 214, 214);}
